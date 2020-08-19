@@ -1,0 +1,17 @@
+#page-landing{
+  width: 100vw;
+  height: 100vh;
+}
+
+#page-landing .landing-content{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.6rem;
+}
+
+#page-landing .landing-content:last-child{
+  margin-left: 2.5rem;
+}
