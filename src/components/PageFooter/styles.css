@@ -1,0 +1,13 @@
+
+#page-landing footer{
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.page-footer-line{
+  width: 90%;
+  height: 0.2rem;
+  background-color:darkgrey;
+  border-radius: 40%;
+  margin-bottom: 0.5rem;
+}

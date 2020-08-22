@@ -13,7 +13,7 @@ const PageHeader = () => {
           
           <Link to="/">
           <div className="nav-logo">
-            Info Covid-19
+            <span>Info Covid-19</span>
             <img src={logo} alt=""/>
           </div>
           </Link>
@@ -22,7 +22,7 @@ const PageHeader = () => {
             <Link to='/'>
               Painel
             </Link>
-            <Link to='/'>
+            <Link to='/contact'>
               Contato
             </Link>
           </div>

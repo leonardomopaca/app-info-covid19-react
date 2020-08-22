@@ -1,0 +1,30 @@
+#page-contact {
+  width: 100vw;
+  height: 100vh;
+}
+
+#page-contact .contact-content{
+  margin: 0 auto;
+  margin-top: 1rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  max-width: 780px;
+  padding: 1.6rem;
+  border-radius: 1.6rem;
+  background: #fff;
+  margin-bottom: 1rem;
+}
+
+#page-contact ul{
+  margin-left: 5rem;
+  text-align: left;
+  list-style: none;
+}
+
+@media (max-width: 600px) {
+  .section-titulo{
+    width: 90%;
+  }
+}

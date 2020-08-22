@@ -1,0 +1,97 @@
+.card-total {
+  overflow: hidden;
+  position: relative;
+  width: 90%;
+  min-width: 250px;
+  margin: 10px;
+  padding: 16px;
+  max-width: 380px;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+.card-max-width {
+  max-width: 380px;
+}
+
+.card-total-border-info {
+  border-radius: 16px;
+  background: #fff;
+  border: 1px solid #b3bfca;
+  box-shadow: 0 4px 6px 0 rgba(31, 70, 88, 0.04);
+}
+
+.card-total-no-border {
+  border-radius: 16px;
+  background: #fff;
+}
+
+.card-total .no-shadow {
+  border: 1px;
+  box-shadow: none;
+}
+
+.card-total:after {
+  content: "";
+  height: 40px;
+  width: 25px;
+  border-radius: 4px;
+  background: var(--ion-color-primary);
+  box-shadow: 0 3px 8px 0 rgba(93, 120, 255, 0.28);
+  top: 26px;
+  left: -3px;
+  position: absolute;
+}
+
+.ct-info {
+  font-size: 25px;
+  margin-left: 4%;
+}
+
+/* LABELS */
+
+.lb-total {
+  color: #28ba62;
+}
+.number-size {
+  font-size: 30px;
+  font-weight: bold;
+}
+.lb-confirmados {
+  color: var(--ion-color-danger);
+}
+.after-confirmados::after {
+  background: var(--ion-color-danger);
+}
+
+.lb-descartados {
+  color: var(--ion-color-success);
+}
+.after-descartados::after {
+  background: var(--ion-color-success);
+}
+
+.lb-suspeito {
+  color: rgb(224, 162, 16);
+}
+.after-suspeito::after {
+  background: rgb(224, 162, 16);
+}
+
+.lb-obito {
+  color: var(--ion-color-dark-tint);
+}
+.after-obito::after {
+  background: var(--ion-color-dark-tint);
+}
+
+.lb-recuperados {
+  color: var(--ion-color-secondary);
+}
+.after-recuperados::after {
+  background: var(--ion-color-secondary);
+}
+
+@media (max-width: 520px) {
+  .card-total{
+    max-width: 800px;
+  }
+}

@@ -1,0 +1,29 @@
+#card-header{
+  width: 100vw;
+  max-width: 780px;
+  padding: 1.6rem;
+  border-radius: 1.6rem;
+  background: #fff;
+  border: 1px solid #b3bfca;
+  box-shadow: 0 4px 6px 0 rgba(31, 70, 88, 0.04);
+  margin-top: 1rem;
+}
+
+#card-header .card-header-informativo{
+  color: #2d3436;
+}
+
+#card-header .card-header-update{
+
+}
+
+@media (max-width: 600px) {
+  #card-header{
+    width: 100%;
+    padding-top: 2.75rem;
+    padding-bottom: 2.75rem;
+  }
+  #card-header .card-header-informativo{
+    font-size: 0.8rem;
+  }
+}

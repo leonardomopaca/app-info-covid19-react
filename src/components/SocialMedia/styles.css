@@ -1,0 +1,32 @@
+.social-media-title{
+  text-align: center;
+}
+
+.social-media{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.social-media a{
+  margin: 5px;
+  border: 2px solid #111213;
+  border-radius: 50%;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+.social-media a:hover{
+  background-color: var(--ion-color-medium-shade);
+}
+
+.social-media a img{
+  width: 60px;
+  height: 40px;
+  margin-top: 1rem;
+  padding: 6px;
+}
+
+.social-media-center > span {
+  color: #0297ff;
+}
