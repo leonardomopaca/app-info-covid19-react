@@ -9,18 +9,19 @@
   text-align: center;
   align-items: center;
   justify-content: center;
-  width: 100vw;
   max-width: 780px;
   padding: 1.6rem;
   border-radius: 1.6rem;
   background: #fff;
   margin-bottom: 1rem;
+  width: 90%;
 }
 
 #page-contact ul{
   margin-left: 5rem;
   text-align: left;
   list-style: none;
+  margin-bottom: 3rem;
 }
 
 @media (max-width: 600px) {

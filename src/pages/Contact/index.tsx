@@ -10,22 +10,18 @@ function Contact() {
     <>
       <div id='page-contact'>
         <PageHeader></PageHeader>
-
-        <section className='flex'>
-          <div className='card-total-no-border '>
-            <div className='contact-content'>
-              <ul>
-                <li>Nome: Antônio Abrantes</li>
-                <li>Formado em Análise e Desenvolvimento de Sistemas</li>
-                <li>Pós graduado em Engenharia de Software</li>
-                <li>
-                  Pós graduando em Desenvolvimento de Tecnologias Web Mobile
-                </li>
-              </ul>
-            </div>
+        
+          <div className='contact-content'>
+            <ul>
+              <li>Nome: Antônio Abrantes</li>
+              <li>Formado em Análise e Desenvolvimento de Sistemas</li>
+              <li>Pós graduado em Engenharia de Software</li>
+              <li>
+                Pós graduando em Desenvolvimento de Tecnologias Web Mobile
+              </li>
+            </ul>
             <SocialMedia></SocialMedia>
           </div>
-        </section>
 
         <PageFooter></PageFooter>
       </div>
