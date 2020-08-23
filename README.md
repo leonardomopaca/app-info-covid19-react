@@ -6,3 +6,7 @@ Conversão da aplicação [Info Covid-19](https://infocovid19app.herokuapp.com/)
 - ReactJS
 - TypeScript
 - Axios
+- Dotenv
+
+### Aplicação
+![](/assets_readme/tela-inicial.png)

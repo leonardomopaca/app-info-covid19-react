@@ -1,16 +1,21 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import './styles.css';
 
-const CardHeader = () => {
+interface IApiInfo {
+  data?: string;
+  cidade?: string;
+  uf?: string;
+}
+
+const CardHeader: React.FC<IApiInfo> = (props) => {
   return (
     <>
       <div id='card-header'>
         <div className='card-header-informativo'>
-          <h1>INFORMATIVO DIÁRIO: Sousa-PB</h1>
+          <h1>INFORMATIVO DIÁRIO: {`${props.cidade}-${props.uf}`}</h1>
         </div>
-        <div className='card-header-update'>Atualizado em: 21/08/2020</div>
+        <div className='card-header-update'>Atualizado em: {props.data}</div>
       </div>
     </>
   );

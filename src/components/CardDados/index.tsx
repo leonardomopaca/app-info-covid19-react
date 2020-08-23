@@ -16,7 +16,7 @@ const CardDados: React.FC<CardDadosProps> = (props) => {
         className={`card-total tp-geral card-total-border-info ${props.afterClass}`}
       >
         <div className='ct-info'>
-          <div className={`${props.lbClass} number-size`}>250</div>
+  <div className={`${props.lbClass} number-size`}>{props.data === undefined ? 0 : props.data}</div>
 
           <div className='lb-title'>{props.label}</div>
         </div>
